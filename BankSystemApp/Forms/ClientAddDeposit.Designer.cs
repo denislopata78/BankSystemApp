@@ -108,10 +108,10 @@
             this.backP.Controls.Add(this.type);
             this.backP.Controls.Add(this.info3);
             this.backP.Controls.Add(this.info3Pb);
-            this.backP.Location = new System.Drawing.Point(264, 125);
+            this.backP.Location = new System.Drawing.Point(258, 125);
             this.backP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backP.Name = "backP";
-            this.backP.Size = new System.Drawing.Size(591, 298);
+            this.backP.Size = new System.Drawing.Size(606, 298);
             this.backP.TabIndex = 19;
             // 
             // amountTb
@@ -131,21 +131,21 @@
             // percentMonth12
             // 
             this.percentMonth12.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.percentMonth12.Location = new System.Drawing.Point(508, 256);
+            this.percentMonth12.Location = new System.Drawing.Point(517, 255);
             this.percentMonth12.Name = "percentMonth12";
-            this.percentMonth12.Size = new System.Drawing.Size(75, 20);
+            this.percentMonth12.Size = new System.Drawing.Size(83, 20);
             this.percentMonth12.TabIndex = 29;
-            this.percentMonth12.Text = "0 %";
+            this.percentMonth12.Text = "12,00 %";
             this.percentMonth12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // percentMonth9
             // 
             this.percentMonth9.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.percentMonth9.Location = new System.Drawing.Point(508, 221);
+            this.percentMonth9.Location = new System.Drawing.Point(517, 221);
             this.percentMonth9.Name = "percentMonth9";
-            this.percentMonth9.Size = new System.Drawing.Size(75, 20);
+            this.percentMonth9.Size = new System.Drawing.Size(83, 20);
             this.percentMonth9.TabIndex = 28;
-            this.percentMonth9.Text = "0 %";
+            this.percentMonth9.Text = "10,00 %";
             this.percentMonth9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // amount
@@ -163,9 +163,9 @@
             this.percentMonth6.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.percentMonth6.Location = new System.Drawing.Point(361, 257);
             this.percentMonth6.Name = "percentMonth6";
-            this.percentMonth6.Size = new System.Drawing.Size(75, 20);
+            this.percentMonth6.Size = new System.Drawing.Size(87, 20);
             this.percentMonth6.TabIndex = 27;
-            this.percentMonth6.Text = "0 %";
+            this.percentMonth6.Text = "10,00 %";
             this.percentMonth6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // percentMonth3
@@ -173,9 +173,9 @@
             this.percentMonth3.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.percentMonth3.Location = new System.Drawing.Point(361, 222);
             this.percentMonth3.Name = "percentMonth3";
-            this.percentMonth3.Size = new System.Drawing.Size(75, 20);
+            this.percentMonth3.Size = new System.Drawing.Size(87, 20);
             this.percentMonth3.TabIndex = 26;
-            this.percentMonth3.Text = "0 %";
+            this.percentMonth3.Text = "10,00 %";
             this.percentMonth3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // panel2
@@ -238,7 +238,7 @@
             // 
             this.month12.AutoSize = true;
             this.month12.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.month12.Location = new System.Drawing.Point(436, 257);
+            this.month12.Location = new System.Drawing.Point(446, 257);
             this.month12.Name = "month12";
             this.month12.Size = new System.Drawing.Size(71, 18);
             this.month12.TabIndex = 9;
@@ -248,11 +248,11 @@
             // 
             this.month9.AutoSize = true;
             this.month9.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.month9.Location = new System.Drawing.Point(436, 222);
+            this.month9.Location = new System.Drawing.Point(446, 222);
             this.month9.Name = "month9";
-            this.month9.Size = new System.Drawing.Size(71, 18);
+            this.month9.Size = new System.Drawing.Size(66, 18);
             this.month9.TabIndex = 8;
-            this.month9.Text = "9 міс   - \r\n";
+            this.month9.Text = "9 міс   -";
             // 
             // paymentPerMonthTb
             // 

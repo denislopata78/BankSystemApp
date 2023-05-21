@@ -167,6 +167,7 @@
             this.searchTb.Location = new System.Drawing.Point(647, 73);
             this.searchTb.Multiline = true;
             this.searchTb.Name = "searchTb";
+            this.searchTb.PlaceholderText = " ІНП";
             this.searchTb.Size = new System.Drawing.Size(186, 26);
             this.searchTb.TabIndex = 9;
             // 

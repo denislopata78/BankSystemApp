@@ -47,7 +47,7 @@ namespace BankSystemModel
                 percent = DepositProgram.InterestRates[9] * Duration / 12;
             else if (Duration == 12)
                 percent = DepositProgram.InterestRates[12];
-            return (Amount / 100 * percent) - ((Amount / 100 * percent) / 100 * TaxOnIncome);
+            return ((Amount / 100 * percent) - ((Amount / 100 * percent) / 100 * TaxOnIncome)) * 100;
         }
     }
 }

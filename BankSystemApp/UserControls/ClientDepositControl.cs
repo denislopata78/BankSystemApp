@@ -53,6 +53,7 @@ namespace BankSystemApp
             monthsAgo = DateTime.Now.AddMonths(-Deposit.Duration);
             if (Deposit.OpenDate <= monthsAgo)
             {
+                withdrawBtn.Enabled = false;
                 closeBtn.BackColor = Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(222)))), ((int)(((byte)(164)))));
             }
         }

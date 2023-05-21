@@ -59,6 +59,7 @@ namespace BankSystemApp
                 }
                 else
                 {
+                    clientPanel.Controls.Clear();
                     MessageBox.Show("Клієнта не знайдено!", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
